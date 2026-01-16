@@ -1,0 +1,202 @@
+body {
+    margin: 0;
+}
+
+
+.logo {
+margin-top: 10px;
+width: 80px;
+}
+header {
+    display: flex;
+    justify-content:space-between ;
+    box-shadow: 2px 2px 5px black;
+    align-items: center;
+
+}
+nav ul {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+nav ul li a {
+    text-decoration: none;
+}
+.icone {
+    display: flex;
+    align-items: center;
+    gap: 15PX;
+}
+.icone i {
+    
+    cursor: pointer;
+    gap: 20PX;
+}
+.icone button {
+    height: 50px;
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.hero div h1 {
+    font-size: 50px;
+    margin: 0;
+    color: greenyellow;
+    align-items: center;
+}
+.hero div h2 {
+    font-size: 100px;
+    margin: 5px 0 20px 0;
+    font-weight: 800;
+    font-family: fantasy;
+    align-items: center;
+}
+.hero div button {
+      height: 40px;
+    background-color: green;
+    color: white;
+    border: none;
+    border-radiUs: 5px;
+    cursor: pointer;   
+    align-items: center; 
+
+}
+.image-container {
+width: 50%;
+height: 100%;
+clip-path: polygon(25% 0% 100% 0% 100% 100% 0% 100%);
+display: flex;
+margin-left: 700px;
+padding: 80 40;
+
+
+
+}
+section {
+    align-items: center;
+    margin-top: 70px;
+    display: flex;
+    margin: 40px;
+    justify-content: center;
+}
+.agro {
+    display: flex;
+    gap: 15PX;
+
+}
+.agro div {
+    box-shadow: 5px 5px 15px black ;
+    border-radius: 20px;
+
+}
+.UN {
+    width: 20%;
+
+}
+.DEUX {
+    width: 70%;
+
+}
+.deux img {
+    border-radius: 3px  ;
+    background-color: aquamarine;
+}
+.produits {
+    align-items: center;
+    justify-content: center;
+    margin:     40px;
+    border-radius: 20px;
+    border-style: outset;
+    padding: 25px;
+    border-color: beige;
+    border-style: dotted;
+    position: relative;
+    overflow: hidden;
+    white-space: inherit;
+
+}
+button {
+    color:white;
+    background-color: green;
+    transform: scale(0.98);
+    padding-left: 50pt;
+    padding-right: 50pt;
+}
+h2 {
+    text-align: center ;
+    font-weight: 800;
+    color: greenyellow;
+}
+.fa-regular {
+    color: greenyellow;
+    
+}
+.seck {
+align-items: center;
+    justify-content: center;
+    margin: 40px;
+    border-radius: 20px;
+    border-style: outset;
+    padding: 25px;
+    border-color: beige;
+    border-style: dotted;
+    position: relative;
+    overflow: hidden;
+    white-space: inherit;
+}
+h3 {
+    text-align: center;
+    align-items: center;
+    
+}
+.Lorem {
+
+    justify-content: center;
+    text-align: center;
+    margin-right: 20px;
+}
+.image {
+    background-image: url(img/Marque/fond\ bleu.jpg);
+    height: 400px;
+    background-size: cover;
+    color: white;
+    text-align: center;
+    padding: 50px 20px;
+    margin: 25px;
+}
+h3{
+font-style: normal;
+color: black;
+font-weight: 700;
+font-size: 2.5rem;
+margin-bottom: 40px;
+min-width: 600px;
+margin-inline:auto;
+}
+.profile {
+    background-color: white;
+    padding: 40px;
+    border-radius: 10px;
+    width: 200px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0,0.2);
+}
+.image {
+    margin: 20px;
+    margin-bottom: 25px;
+}
+.for {
+    margin: 20px;
+}
+.form{
+    background-image: url(img/Actualite/16_1_small.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.form div form button {
+    border-radius: 20px;
+    padding: 30px;
+    
+}
+
